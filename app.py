@@ -9,7 +9,7 @@ import tempfile
 # Gemini API Key
 # ====================================
 client = genai.Client(
-    api_key=os.getenv("")
+    api_key=os.getenv("Gemini_API")
 )
 
 # ====================================
